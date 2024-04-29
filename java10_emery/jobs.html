@@ -1,0 +1,58 @@
+<!--Chapter 9 JavaJam John Emery-->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>JavaJam Coffee Bar Jobs</title>
+	<meta charset="utf-8">
+	<link href="css/javajam.css" rel="stylesheet">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<!-- wrapper -->
+	<div id="wrapper">
+		<!--Header Section-->
+		<header>
+			<h1><a href="index.html">JavaJam Coffee Bar</a></h1>
+		</header>
+		<!--Navigation Section-->
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="music.html">Music</a></li>
+				<li><a href="jobs.html">Jobs</a></li>
+			</ul>
+		</nav>
+		<!--Main Content Section-->
+		<main>
+			<div id="herojobs"></div>
+
+			<h2>Jobs at JavaJam</h2>
+			<p>Want to work at JavaJam? Fill out the form below to start your application. All information is required.</p>
+			
+			<form method="POST" action="https://webdevbasics.net/scripts/javajam8.php" target="_blank">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="myName">
+				<label for="email">E-mail:</label>
+				<input type="email" id="email" name="myEmail">
+				<label for="date">Start Date:</label>
+				<input type="date" id="date" name="myStart">
+				<label for="experience">Experience:</label>
+				<textarea id="experience" name="myExperience" rows="2" cols="20" required></textarea><br>
+				<input type="submit" value="Apply Now">
+			</form>
+			
+		</main>
+		
+		<!--Footer Section-->
+		<footer>
+			Copyright &copy; 2024 JavaJam Coffee Bar<br>
+			<a href="mailto:jpemery24@amarillocollege.com">John Emery</a>
+		</footer>
+	</div>
+</body>
+
+</html>
